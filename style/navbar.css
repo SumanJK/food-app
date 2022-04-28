@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+#navbar{
+    display: flex;
+    background-color: #ffbebe;
+    padding: 5px 0;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(99, 99, 99);
+    /* margin-bottom: 50px; */
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+#title{
+    color: rgb(255, 255, 255);
+    margin:0;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    padding:0 25px;
+    word-spacing: 4px;
+    letter-spacing:3px;
+    text-shadow: 2px 2px #90c729;
+}
+#icon{
+    flex: 1;
+    margin: auto 0;
+}
+#searchBar{
+    background-color: #ffbebe;
+    flex: 6;
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    margin: auto;
+}
+#searchBar>a{
+    text-decoration: none;
+    margin: auto 0;
+    padding:0 20px;
+    color: black;
+    font-family: 'Play', sans-serif;
+    font-weight: border;
+    transition:all 0.5s ease;
+}
+#searchBar>a:hover{
+    color: red;
+    transition:all 0.5s ease;
+}
+#searchTerm{
+    width: 20%;
+    padding: 10px 10px;
+    border: 3px solid #ffa8a8;
+    border-right: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* transition:all 0.5s ease; */
+}
+#searchTerm:hover, #searchTerm:focus{
+    outline: none;
+    /* transition:all 0.5s ease; */
+    /* color: white; */
+}
+#button{
+    height: 45px;
+    /* width: 8%; */
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #fab9b9;
+    border-left: 0px;
+}
+
+#clear{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    padding: 7px 15px;
+    font-size: 26px;
+    border-right: none;
+    border-left: none;
+}
+#searchButton{
+    padding: 0 20px;
+    font-size: 22px;
+    color: rgb(219, 218, 218);
+    border: none;
+    background-color:rgb(251, 56, 30) ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid #fab9b9;
+    border-left: 0px;
+}
+#searchButton> img{
+    width: 2vw;
+    /* height: 100%; */
+    margin: 0 ;
+}

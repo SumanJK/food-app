@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 #navbar{
     display: flex;
-    background-color: #ffbebe;
+    background: linear-gradient(to right, red, white);
     padding: 5px 0;
     justify-content: space-between;
     border-bottom: 5px solid rgb(99, 99, 99);
@@ -27,12 +27,13 @@ a{
     margin: auto 0;
 }
 #searchBar{
-    background-color: #ffbebe;
+    background: linear-gradient(to right, red, white);
     flex: 6;
     display: flex;
     width: 40%;
     justify-content: end;
     margin: auto;
+
 }
 #searchBar>a{
     text-decoration: none;
